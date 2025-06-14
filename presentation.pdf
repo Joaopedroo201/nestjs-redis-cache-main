@@ -1,0 +1,89 @@
+%PDF-1.4
+4 0 obj
+<< /Length 249 >>
+stream
+BT
+/F1 18 Tf
+72 750 Td (Exemplo de Cache com Redis em NestJS) Tj
+72 726 Td (Projeto demonstra uso do Redis para cache em uma API NestJS) Tj
+72 702 Td (Contador de visitas e logs de origem dos dados) Tj
+72 678 Td (TTL de 1 hora para cada chave) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 3 0 R >> >> /MediaBox [0 0 612 792] /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 203 >>
+stream
+BT
+/F1 18 Tf
+72 750 Td (Arquitetura) Tj
+72 726 Td (NestJS: mdulo, servio e controlador) Tj
+72 702 Td (Redis na porta 6379 \(cache layer\)) Tj
+72 678 Td (Padro Cache-Aside, dados limpos no cache) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 3 0 R >> >> /MediaBox [0 0 612 792] /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 228 >>
+stream
+BT
+/F1 18 Tf
+72 750 Td (Endpoints & Funcionamento) Tj
+72 726 Td (GET /cache/:key retorna dado ou gera novo) Tj
+72 702 Td (DELETE /cache/:key invalida o cache) Tj
+72 678 Td (Logs indicam visitas e origem \(cache ou banco\)) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 3 0 R >> >> /MediaBox [0 0 612 792] /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 178 >>
+stream
+BT
+/F1 18 Tf
+72 750 Td (Uso e Requisitos) Tj
+72 726 Td (Node.js >=14 e Redis local) Tj
+72 702 Td (npm install && npm run build) Tj
+72 678 Td (npm run start:dev para testar) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 3 0 R >> >> /MediaBox [0 0 612 792] /Contents 10 0 R >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R] /Count 4 >>
+endobj
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000309 00000 n 
+0000000435 00000 n 
+0000000689 00000 n 
+0000000815 00000 n 
+0000001094 00000 n 
+0000001220 00000 n 
+0000001450 00000 n 
+0000001578 00000 n 
+0000001648 00000 n 
+0000001724 00000 n 
+trailer
+<< /Root 1 0 R /Size 12 >>
+startxref
+1773
+%%EOF
