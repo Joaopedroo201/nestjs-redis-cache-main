@@ -21,8 +21,8 @@ export class AppService {
 
     // Se não estiver no cache, gera novo dado (dados limpos sem informação de visita)
     const cleanData = `Dados do banco de dados - obtidos em ${new Date().toLocaleString()}`;
-    // Salva apenas os dados limpos no cache por 1 hora
-    await this.cacheManager.set(key, cleanData, 3600000);
+    // Salva apenas os dados limpos no cache por 1 hora (TTL em segundos)
+    await this.cacheManager.set(key, cleanData, 3600);
     console.log(`Dados obtidos do banco de dados - Visita #${this.counter}`);
     return `${cleanData} (Visita #${this.counter} - do banco de dados)`;
   }
